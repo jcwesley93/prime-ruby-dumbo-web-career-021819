@@ -3,11 +3,11 @@ def prime?(n)
     return false
   elsif n == 2
     return true
-  elsif for n in 2..(n-1)
-    if n % i == 0
+  elsif for n in 2..(n)
+    if n %  == 0
       return false
   else return true
-    end
   end
+end
  end
 end
