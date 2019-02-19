@@ -4,7 +4,7 @@ def prime?(n)
   elsif n == 2
     return true
   elsif for n in 2..(n)
-    if n %  == 0
+    if n % 2 == 0
       return false
   else return true
   end
