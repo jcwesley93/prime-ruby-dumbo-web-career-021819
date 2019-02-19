@@ -3,7 +3,7 @@ def prime?(n)
     return false
   elsif n == 2 || 3
     return true
-  elsif 
+  elsif
     integers = 2..n
     integers.each do |int|
       if n % int == 0
