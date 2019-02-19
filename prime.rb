@@ -7,8 +7,6 @@ def prime?(n)
     integers = 2...n
     integers.each do |int|
       if n % int == 0
-      return false
-  else return true
   end
 end
  end
